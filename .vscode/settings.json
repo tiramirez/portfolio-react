@@ -1,0 +1,88 @@
+{
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    },"editor.tokenColorCustomizations": {
+        // "comments": "#07ffea",
+        "comments": "#9ca2fa",
+        "textMateRules": [{
+            "scope": ["keyword.operator","constant.other","meta.function-call.arguments","variable.parameter","storage.modifier","entity.other.attribute-name","punctuation.section.embedded"],
+            "settings": {
+                "foreground": "#dfdfdf"
+            }
+        },{
+            "scope": ["meta.attribute.python","meta.function-call.generic","entity.name.function"],
+            "settings": {
+                "foreground": "#fa9696",
+                "fontStyle": "bold",
+
+            }
+        },{
+            "scope": ["keyword","constant.language","variable.language"],
+            "settings": {
+                "foreground": "#a2f1f2"
+            }
+        },{
+            "scope": ["constant.numeric"],
+            "settings": {
+                "foreground": "#16dfda"
+            }
+        },{
+            "scope": ["support.function.builtin.python","support.type.python","entity.name.type"],
+            "settings": {
+                "foreground": "#acfabc",
+                "fontStyle": "bold"
+            }
+        },{
+            "scope": ["entity.name.tag"],
+            "settings": {
+                "foreground": "#acfabc",
+            }
+        },{
+            "scope": ["meta.fstring.python", "storage.type","string.quoted.single.python","string.interpolated.python","constant.character"],
+            "settings": {
+                "foreground": "#9ca2fa"
+            }
+        },{
+            "scope": "keyword.other.DML.sql",
+            "settings": {
+                "foreground": "#00ffdd"
+                // "foreground": "#00fff2"
+            }
+        },{
+            "scope": ["keyword.other.sql"],
+            "settings": {
+                // "foreground": "#ffaf8f"
+                // "foreground": "#ff6fa6"
+                "foreground": "#fa9696"
+            }
+        },{
+            "scope": ["string.quoted.single.sql","string.quoted.double.sql"],
+            "settings": {
+                "foreground": "#e2c0c0"
+            }
+        },{
+            "scope": ["string.quoted.multi.python","variable.parameter"],
+            "settings": {
+                "foreground": "#e2c0c0"
+            }
+        },{
+            "scope": ["comment.line.double-dash.sql","punctuation.definition.comment.sql"],
+            "settings": {
+                "foreground": "#9656b4"
+            }
+        }]
+    },
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBorder": "#ffffff",
+        "editor.background": "#191A1A"
+    //     "editor.lineHighlightBackground": "#a76d76"
+     },
+     "[javascriptreact]": {
+         "editor.tabSize": 2
+     },
+     "[javascript]": {
+         "editor.tabSize": 2
+     }
+}
