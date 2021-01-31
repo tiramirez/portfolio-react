@@ -7,8 +7,11 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <Header />
-        <Game />
+        <div className="wrapper">
+          <Header />
+          <Game />
+
+        </div>
         <Footer />
       </div>
     )

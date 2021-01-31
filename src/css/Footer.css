@@ -1,18 +1,18 @@
 .footer{
-    height: 50px;
-    padding: 10px;
+    height: 100px;
+    /* padding: 10px; */
     text-align: right;
-    align-content: center;
-    /* background: #1abc9c; */
+    align-content:flex-end;
+    background: #191A1A;
     border:blue;
-    border-width: 10px;
-    border-style: solid;
+    /* border-width: 10px; */
+    /* border-style: solid; */
     border-color: blanchedalmond;
     color: white;
     font-size: 12px;
 }
 
-.colorsContainer, p{
+.colorsContainer, p {
     width: fit-content; 
     height: fit-content;
     display: inline-block;
@@ -23,6 +23,7 @@
     /* padding: 5px; */
     top: 50%;
 }
+
 .colorSquare{
     height: 35px;
     width: 35px;
